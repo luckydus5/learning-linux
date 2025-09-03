@@ -61,7 +61,30 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				terminal: {
+					green: 'hsl(var(--terminal-green))',
+					'green-glow': 'hsl(var(--terminal-green-glow))',
+					cyan: 'hsl(var(--terminal-cyan))',
+					'cyan-glow': 'hsl(var(--terminal-cyan-glow))',
+					purple: 'hsl(var(--terminal-purple))',
+					orange: 'hsl(var(--terminal-orange))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-dark': 'var(--gradient-dark)',
+				'gradient-glow': 'var(--gradient-glow)',
+				'gradient-hero': 'var(--gradient-hero)'
+			},
+			boxShadow: {
+				'glow': 'var(--shadow-glow)',
+				'card': 'var(--shadow-card)',
+				'hover': 'var(--shadow-hover)'
+			},
+			fontFamily: {
+				mono: ['var(--font-mono)', 'monospace'],
+				sans: ['var(--font-sans)', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
