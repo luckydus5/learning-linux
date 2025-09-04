@@ -18,29 +18,40 @@ export const curriculum: Phase[] = [
     description: "Master the fundamentals of Linux, from installation to basic navigation",
     icon: "🏗️",
     topics: [
-      "Linux history, philosophy, and ecosystem",
-      "Distribution comparison (Ubuntu, CentOS, Debian, Red Hat, Arch)",
-      "Installation methods: bare metal, VMs, cloud, containers",
-      "Desktop environments vs CLI focus",
-      "File System Hierarchy Standard (FHS)",
-      "Essential commands and navigation",
-      "Getting help (man pages, info, documentation)"
+      "Introduction to Linux - What is Linux: Open-source OS kernel created by Linus Torvalds, powers servers, desktops, embedded devices",
+      "Linux Distributions - Understanding Ubuntu, Debian, Fedora, CentOS, Arch and their primary use cases",
+      "Installation Methods - Bare metal, dual-boot, virtual machines, WSL configuration and partitioning basics",
+      "File System Hierarchy Standard (FHS) - Deep dive into / (root), /home, /etc, /var, /usr, /bin structure",
+      "Essential Commands - Navigation (cd, ls, pwd), file operations (cp, mv, rm, mkdir), text viewing (cat, less, head, tail)",
+      "Text Processing - Basic grep, sed, awk for searching and manipulating text files",
+      "User Environment - Understanding .bashrc, .profile, PATH variable, aliases",
+      "Getting Help - man pages, info, --help, documentation sources, community resources",
+      "Process Basics - ps, top, kill commands for basic process management",
+      "Permissions Fundamentals - Understanding rwx permissions, chmod, chown basics"
     ],
     labs: [
-      "Multi-environment Linux setup",
-      "System exploration exercises",
-      "File system navigation challenges",
-      "Distribution comparison lab"
+      "Lab 1: Install Linux in VirtualBox - Set up Ubuntu VM, configure 20GB disk, 2GB RAM, network settings",
+      "Lab 2: Directory Navigation Challenge - Navigate to 20 specific locations using only cd and pwd",
+      "Lab 3: File Operations Practice - Create directory structure, copy files with patterns, use wildcards",
+      "Lab 4: Permission Scenarios - Set specific permissions on files, understand numeric notation (755, 644)",
+      "Lab 5: System Information Gathering - Use uname, lsb_release, df, free to create system report",
+      "Lab 6: Process Management - Start background processes, list them, kill specific ones",
+      "Lab 7: Text Processing - Search log files with grep, count occurrences, extract specific fields"
     ],
     projects: [
-      "Set up three different Linux distributions",
-      "Create a personal Linux environment",
-      "Document system configuration"
+      "Project 1: Multi-Distro Environment - Install Ubuntu, CentOS, and Debian VMs, document differences in package managers, file locations, and default configurations",
+      "Project 2: System Documentation Script - Create bash script that generates comprehensive system report including hardware, software, network config",
+      "Project 3: File Organization System - Design and implement a file structure for a development environment with proper permissions",
+      "Project 4: Custom Environment Setup - Configure .bashrc with useful aliases, functions, and customizations for efficient workflow",
+      "Project 5: Permission Audit Tool - Write script to audit and report file permissions in critical directories"
     ],
     assessments: [
-      "Linux fundamentals quiz",
-      "Practical navigation test",
-      "Distribution selection assessment"
+      "Quiz 1: Linux Fundamentals - 50 questions on history, distributions, philosophy, open source concepts",
+      "Practical Test 1: Navigation Speed Run - Complete 20 navigation tasks in under 5 minutes",
+      "Practical Test 2: File Operations - Perform complex file operations without using GUI",
+      "Troubleshooting Scenario 1: Fix Permission Issues - Resolve 5 common permission-related problems",
+      "Troubleshooting Scenario 2: Process Management - Identify and terminate problematic processes",
+      "Command Challenge: Execute 30 essential commands from memory with correct syntax"
     ]
   },
   {

@@ -210,8 +210,16 @@ const Curriculum = () => {
                                   </p>
                                 </div>
                               </div>
-                              <Button variant="outline" size="sm">
-                                Start Lab
+                              <Button 
+                                variant="outline" 
+                                size="sm"
+                                onClick={() => {
+                                  if (phase.id === 'foundation') {
+                                    window.location.href = '/curriculum/linux-foundation';
+                                  }
+                                }}
+                              >
+                                {phase.id === 'foundation' ? 'View Full Content' : 'Start Lab'}
                                 <ArrowRight className="ml-2 h-3 w-3" />
                               </Button>
                             </div>

@@ -11,6 +11,7 @@ import Resources from "./pages/Resources";
 import Community from "./pages/Community";
 import CloudLab from "./pages/CloudLab";
 import NotFound from "./pages/NotFound";
+import LinuxFoundation from "./pages/LinuxFoundation";
 
 const queryClient = new QueryClient();
 
@@ -32,6 +33,7 @@ const App = () => (
           <Route path="/resources" element={<Resources />} />
           <Route path="/community" element={<Community />} />
           <Route path="/cloud" element={<CloudLab />} />
+          <Route path="/curriculum/linux-foundation" element={<LinuxFoundation />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
